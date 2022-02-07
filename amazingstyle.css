@@ -1,0 +1,125 @@
+body {
+  font-size: 5;
+  background-color: burlywood;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+h2 {
+  font-family: forte;
+  color: #73ad21;
+  text-align: center;
+  text-shadow: transparent;
+  size: 20;
+  text-shadow: 3px 3px 1px black;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 30%;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13;
+}
+
+input[type="radio"] {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13;
+  font-weight: bold;
+  line-height: 1.1;
+  display: list;
+  cursor: pointer;
+  grid-template-columns: 5em auto;
+  gap: 0.5em;
+}
+.wholedisplay{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
+}
+
+.box {
+  grid-column: 1;
+  grid-row: 2/ 5;
+  background-color: lightblue;
+  margin-left: auto;
+  box-shadow: 3px 3px 1px grey;
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 10px;
+  width: 350px;
+  height: 730px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+.welcomepage{
+  grid-column: 1/ 6;
+  grid-row: 1;
+    color: white;
+    font-size: 21px;
+    font-family: comfortaa;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-bottom: auto;
+}
+.welcomenotes{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.welcomenote{
+    width: 300px;
+    background-color:whitesmoke;
+    padding: 5px;
+    box-shadow: 3px 3px 2px grey;
+}
+p{
+  text-align:center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.p_header{
+  text-align: justify;
+}
